@@ -1,0 +1,27 @@
+
+.site-card-wrapper {
+    margin-top: 1px;
+    
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+    
+}
+.card {
+    background-color: #c8d8e4;
+    margin-top: 15px;
+    max-width: 100vw !important;
+    padding: 15px;
+
+}
+.project-image {
+    height: max-content;
+}
+
+
+h2 {
+    text-align: center;
+    color: #123641;
+}

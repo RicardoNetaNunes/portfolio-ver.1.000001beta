@@ -1,0 +1,84 @@
+.centerSkills {
+   
+   margin-top:25vh ;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  flex-direction: column;
+}
+
+.clearfix:before,
+.textBox {
+    width: 250px;
+    height: 100px;
+    background: #52ab98;
+    transition: width 2s, height 2s, transform 2s;
+    padding: 2px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+ .textBox:hover {
+    width: 450px;
+    height: 200px;
+    transform: rotate(360deg);
+  }
+  p {
+    font-family: 'Roboto Mono', monospace;
+    color: #f2f2f2;
+    ;
+    font-size: 10px;
+    text-decoration:double;
+  }
+  p:hover{
+  font-size: 20px;
+  }
+
+.skillLogo {
+ width: 70px;
+  height: 70px;
+  background: #f7f4e5;
+  border-radius: 9px; 
+  vertical-align: middle;
+  margin: 5px;
+  position: relative;
+  box-shadow: 4px 5px  #52ab98;
+  justify-content: center;
+}
+
+.skillLogo:hover {
+    opacity: 0.6; 
+    border: 1px solid #2b6777;
+}
+
+.skillsLogo {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+    margin:7vw 5vw 7vw 5vw;
+    object-fit: cover;
+    
+}
+.logoImg {
+    object-fit: cover;
+    padding-left:9px;
+    padding-top: 3px;
+}
+
+img {
+
+   
+   margin-top: 4px;
+    justify-content: center;
+  flex-direction: column;    
+}
+
