@@ -13,7 +13,7 @@ function Landing() {
    
       <div className='filterVideo'>
       <video autoPlay loop muted id='video'>
-          <source src={backgroundVideo} type='video/mp4'/>
+          <source src="https://res.cloudinary.com/dqaj5cfil/video/upload/v1643752824/waves_mro9z9.mp4" type='video/mp4'/>
           
       </video>
       
